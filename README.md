@@ -48,8 +48,8 @@ To run the MATLAB simulations and explore the PID controller design:
    cd pid_level_control_trainer
 Open MATLAB:
 
-Navigate to the matlab/ directory and open the primary simulation script (fluid_level_simulation.m).
-
+Navigate to the matlab/ directory and open the primary simulation script (pid_sim.slx).
+GUI Program at 
 Run the Simulation:
 
 Execute the script in MATLAB. Make sure you have the necessary toolboxes installed. Adjust the PID parameters in pid_controller.m if needed.

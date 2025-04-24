@@ -1,4 +1,4 @@
-# MATLAB based PID Fluid level trainer
+# MATLAB+Simulink based PID Fluid level control trainer - Bachelor Thesis project.
 This repository contains all the materials associated with the Bachelor thesis project on a **MATLAB based PID Fluid level trainer**. The work focuses on developing and implementing a PID controller for fluid level regulation, with a detailed analysis presented in the thesis document.
 
 ## Table of Contents
@@ -21,6 +21,7 @@ This repository contains the complete materials for the Bachelor thesis project 
 
 MATLAB Code: Scripts and functions for implementing the PID controller, running simulations, and analyzing fluid level control.
 Supporting Materials: MATLAB Code, Simulink Models, and supplementary documentation that support the thesis findings.
+Additionally a GUI program is included to run both the simulations and the experiment methods in a graphical environment.* 
 The project demonstrates the practical application of control theory using MATLAB, where a PID controller is developed and tuned to regulate the fluid level in a training environment.
 
 ## Overview
@@ -66,5 +67,7 @@ Documentation: Comprehensive thesis report and supplementary documentation to su
 Results
 The project demonstrates successful control of fluid level dynamics using the PID controller. The simulation results indicate that with appropriate tuning, the system can maintain the fluid level within desired limits while responding effectively to disturbances.
 
-Acknowledgements
+## Acknowledgements
 Special thanks to supervisors Prof Frank Platte and Dr. Peter Henselder, friends and family that supported this project. 
+
+* however this is still in its beta phase and even though at times the runs were successful at times it had issues with communicating with Simulink.

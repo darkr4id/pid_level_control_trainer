@@ -64,7 +64,7 @@ Pump: Brushed DC pump of 12V (Exact model can be found on the Thesis Defence pre
 **Important**
 The GUI program was in the beta version as of 2025 May, no further development would be available for it due to time constraints and due to me finally moving on from this project to my master, but the GUI program worked just fine except for some minute errors in handling the experimental mode with multiple gain combos.
 
-Execute the script in MATLAB. Make sure you have the necessary toolboxes installed. Adjust the PID parameters in pid_controller.m if needed.
+Execute the script in MATLAB. Make sure you have the necessary toolboxes installed, Arduino Support package for simulink and matlab, Digital signal processing toolbox. Adjust the PID parameters in p2_f.m when running the script.
 
 Usage
 Simulation: Run the fluid_level_simulation.m script to simulate the fluid level control.

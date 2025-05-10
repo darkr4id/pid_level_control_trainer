@@ -37,11 +37,11 @@ This project explores the design, simulation, and implementation of a Proportion
 
 The repository is organized as follows:
 
--README.md : This file
--p_f2.m : Main automation script
--pid_exp.slx : Main experimental simulink model
--pid_sim.slx : Main simulation model
--gui_pid_simulation_2.m : GUI Program for the project (Beta)
+- README.md : This file
+- p_f2.m : Main automation script
+- pid_exp.slx : Main experimental simulink model
+- pid_sim.slx : Main simulation model
+- gui_pid_simulation_2.m : GUI Program for the project (Beta)
 
 To run the MATLAB Simulink models and explore the PID controller design:
 

@@ -37,7 +37,7 @@ This project explores the design, simulation, and implementation of a Proportion
 
 The repository is organized as follows:
 
-├── README.md # This file ├── ├── matlab/ # MATLAB code for simulation and PID control │ ├── fluid_level_simulation.m # Main simulation script │ ├── pid_controller.m # PID controller implementation │ └── utils/ # Utility functions and helper scripts ├── data/ # Data files used in analysis and simulation │ └── experimental_results.csv # Sample data output └── docs/ # Additional documentation and reports └── presentation.pdf # Project presentation slides
+├── README.md # This file ├── ├── matlab/ # MATLAB code for simulation and PID control │ ├── p_f2.m # Main automation script │ ├── pid_exp.slx # PID controller implementation in experimental model │ └── utils/ # Utility functions and helper scripts ├── data/ # Data files used in analysis and simulation │ └── experimental_results.csv # Sample data output └── docs/ # Additional documentation and reports └── presentation.pdf # Project presentation slides
 
 
 To run the MATLAB simulations and explore the PID controller design:
@@ -47,11 +47,18 @@ To run the MATLAB simulations and explore the PID controller design:
    ```bash
    git clone https://github.com/darkr4id/pid_level_control_trainer.git
    cd pid_level_control_trainer
-Open MATLAB:
+2. **Open MATLAB:**
 
-Navigate to the matlab/ directory and open the primary simulation script (pid_sim.slx).
+Navigate to the matlab/ directory and open the primary simulation script (pid_sim.slx) and the experimental simulink model (pid_exp.slx).
 GUI Program at 
 Run the Simulation:
+**Important**
+The experimental setup is designed using a Arduino UNO R4, therefore its essential for any replications of the setup to have the same microcontroller or for the Simulink external mode settings to be adjusted according to the controller used.
+Motor Driver: L298N
+Pump: Brushed DC pump of 12V (Exact model can be found on the Thesis Defence presentation)
+
+**Important**
+The GUI program was in the beta version as of 2025 May, no further development would be available for it due to time constraints and due to me finally moving on from this project to my master, but the GUI program worked just fine except for some minute errors in handling the experimental mode with multiple gain combos.
 
 Execute the script in MATLAB. Make sure you have the necessary toolboxes installed. Adjust the PID parameters in pid_controller.m if needed.
 

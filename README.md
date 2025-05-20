@@ -81,4 +81,4 @@ The project demonstrates successful control of fluid level dynamics using the PI
 ## Acknowledgements
 Special thanks to supervisors Prof Frank Platte and Dr. Peter Henselder, friends and family that supported this project. 
 
-* however this is still in its beta phase and even though at times the runs were successful at times it had issues with communicating with Simulink.
+* In the GUI program specifically when its in the experimental mode at times it had issues with communicating with Matlab, but this can mostly be resolved by resetting the Arduino and relaunching Matlab.
